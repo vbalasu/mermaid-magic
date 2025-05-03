@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="mermaid-magic",
-    version="0.1.0",
+    version="0.1.1",
     description="IPython magic for rendering Mermaid diagrams",
     long_description=long_description,
     long_description_content_type="text/markdown",
