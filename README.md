@@ -5,7 +5,7 @@ An IPython magic extension for rendering Mermaid diagrams in Jupyter notebooks.
 ## Installation
 
 ```bash
-pip install -e .
+pip install mermaid-magic
 ```
 
 ## Usage
