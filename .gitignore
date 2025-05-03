@@ -2,3 +2,4 @@
 .virtual_documents/
 __pycache__/
 mermaid_magic.egg-info/
+dist/
