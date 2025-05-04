@@ -4,24 +4,6 @@ An IPython magic extension for rendering Mermaid diagrams in notebooks, includin
 
 <a href="https://github.com/vbalasu/mermaid-magic/releases/download/assets/mermaid-in-notebooks.html" download class="button-link">Download Databricks Notebook</a>
 
-<style>
-.button-link {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #4CAF50;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  font-size: 16px;
-  border-radius: 5px;
-  border: none;
-  cursor: pointer;
-}
-
-.button-link:hover {
-  background-color: #45a049;
-}
-</style>
 
 ## Installation
 
