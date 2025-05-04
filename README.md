@@ -2,7 +2,7 @@
 
 An IPython magic extension for rendering Mermaid diagrams in notebooks, including Databricks, Jupyter, VS Code and Cursor
 
-<a href="https://raw.githubusercontent.com/vbalasu/mermaid-magic/main/mermaid-in-notebooks.html" download class="button-link">Download Databricks Notebook</a>
+<a href="https://github.com/vbalasu/mermaid-magic/releases/download/assets/mermaid-in-notebooks.html" download class="button-link">Download Databricks Notebook</a>
 
 <style>
 .button-link {
