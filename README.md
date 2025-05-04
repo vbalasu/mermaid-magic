@@ -2,6 +2,27 @@
 
 An IPython magic extension for rendering Mermaid diagrams in notebooks, including Databricks, Jupyter, VS Code and Cursor
 
+<a href="https://raw.githubusercontent.com/vbalasu/mermaid-magic/main/mermaid-in-notebooks.html" download class="button-link">Download Databricks Notebook</a>
+
+<style>
+.button-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.button-link:hover {
+  background-color: #45a049;
+}
+</style>
+
 ## Installation
 
 ```bash
@@ -27,7 +48,7 @@ graph TD;
     D --> B;
 ```
 
-![](media/01.mmd.png)
+![](https://raw.githubusercontent.com/vbalasu/mermaid-magic/main/media/01.mmd.png)
 
 ## Features
 
@@ -70,18 +91,9 @@ graph TD
 ```
 
 
-![](media/02.mmd.png)
+![](https://raw.githubusercontent.com/vbalasu/mermaid-magic/main/media/02.mmd.png)
 
-<script>
-  if (typeof mermaid === 'undefined') {
-    var script = document.createElement('script');
-    script.src = "https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js";
-    script.onload = () => mermaid.initialize({ startOnLoad: true });
-    document.head.appendChild(script);
-  } else {
-    mermaid.init();
-  }
-</script>
+
 
 
 
@@ -105,18 +117,9 @@ graph TD
 
 
 
-![](media/03.mmd.png)
+![](https://raw.githubusercontent.com/vbalasu/mermaid-magic/main/media/03.mmd.png)
 
-<script>
-  if (typeof mermaid === 'undefined') {
-    var script = document.createElement('script');
-    script.src = "https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js";
-    script.onload = () => mermaid.initialize({ startOnLoad: true });
-    document.head.appendChild(script);
-  } else {
-    mermaid.init();
-  }
-</script>
+
 
 
 
@@ -142,18 +145,8 @@ sequenceDiagram
 
 
 
-![](media/04.mmd.png)
+![](https://raw.githubusercontent.com/vbalasu/mermaid-magic/main/media/04.mmd.png)
 
-<script>
-  if (typeof mermaid === 'undefined') {
-    var script = document.createElement('script');
-    script.src = "https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js";
-    script.onload = () => mermaid.initialize({ startOnLoad: true });
-    document.head.appendChild(script);
-  } else {
-    mermaid.init();
-  }
-</script>
 
 
 
@@ -187,18 +180,8 @@ classDiagram
 
 
 
-![](media/05.mmd.png)
+![](https://raw.githubusercontent.com/vbalasu/mermaid-magic/main/media/05.mmd.png)
 
-<script>
-  if (typeof mermaid === 'undefined') {
-    var script = document.createElement('script');
-    script.src = "https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js";
-    script.onload = () => mermaid.initialize({ startOnLoad: true });
-    document.head.appendChild(script);
-  } else {
-    mermaid.init();
-  }
-</script>
 
 
 
@@ -216,18 +199,9 @@ erDiagram
 
 
 
-![](media/06.mmd.png)
+![](https://raw.githubusercontent.com/vbalasu/mermaid-magic/main/media/06.mmd.png)
 
-<script>
-  if (typeof mermaid === 'undefined') {
-    var script = document.createElement('script');
-    script.src = "https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js";
-    script.onload = () => mermaid.initialize({ startOnLoad: true });
-    document.head.appendChild(script);
-  } else {
-    mermaid.init();
-  }
-</script>
+
 
 
 
@@ -253,18 +227,9 @@ gantt
 
 
 
-![](media/07.mmd.png)
+![](https://raw.githubusercontent.com/vbalasu/mermaid-magic/main/media/07.mmd.png)
 
-<script>
-  if (typeof mermaid === 'undefined') {
-    var script = document.createElement('script');
-    script.src = "https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js";
-    script.onload = () => mermaid.initialize({ startOnLoad: true });
-    document.head.appendChild(script);
-  } else {
-    mermaid.init();
-  }
-</script>
+
 
 
 
@@ -285,18 +250,8 @@ stateDiagram-v2
 
 
 
-![](media/08.mmd.png)
+![](https://raw.githubusercontent.com/vbalasu/mermaid-magic/main/media/08.mmd.png)
 
-<script>
-  if (typeof mermaid === 'undefined') {
-    var script = document.createElement('script');
-    script.src = "https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js";
-    script.onload = () => mermaid.initialize({ startOnLoad: true });
-    document.head.appendChild(script);
-  } else {
-    mermaid.init();
-  }
-</script>
 
 
 
@@ -314,18 +269,8 @@ pie title Programming Languages
 
 
 
-![](media/09.mmd.png)
+![](https://raw.githubusercontent.com/vbalasu/mermaid-magic/main/media/09.mmd.png)
 
-<script>
-  if (typeof mermaid === 'undefined') {
-    var script = document.createElement('script');
-    script.src = "https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js";
-    script.onload = () => mermaid.initialize({ startOnLoad: true });
-    document.head.appendChild(script);
-  } else {
-    mermaid.init();
-  }
-</script>
 
 
 
