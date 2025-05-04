@@ -3,3 +3,4 @@
 __pycache__/
 mermaid_magic.egg-info/
 dist/
+.DS_Store

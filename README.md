@@ -27,6 +27,8 @@ graph TD;
     D --> B;
 ```
 
+![](media/01.mmd.png)
+
 ## Features
 
 - Renders Mermaid diagrams directly in Jupyter notebooks
@@ -68,15 +70,7 @@ graph TD
 ```
 
 
-
-<div class="mermaid">
-graph TD
-A[Start] --> B{Is it working?}
-B -->|Yes| C[Great!]
-B -->|No| D[Debug]
-D --> B
-
-</div>
+![](media/02.mmd.png)
 
 <script>
   if (typeof mermaid === 'undefined') {
@@ -111,19 +105,7 @@ graph TD
 
 
 
-<div class="mermaid">
-graph TD
-A[Data Ingestion] --> B[Data Processing]
-B --> C{Quality Check}
-C -->|Pass| D[Feature Engineering]
-C -->|Fail| E[Error Handling]
-D --> F[Model Training]
-F --> G[Model Evaluation]
-G -->|Metrics Meet Threshold| H[Model Deployment]
-G -->|Metrics Below Threshold| F
-E --> A
-
-</div>
+![](media/03.mmd.png)
 
 <script>
   if (typeof mermaid === 'undefined') {
@@ -160,21 +142,7 @@ sequenceDiagram
 
 
 
-<div class="mermaid">
-sequenceDiagram
-participant User
-participant Databricks
-participant DataLake
-participant ML
-
-User->>Databricks: Execute notebook
-Databricks->>DataLake: Query data
-DataLake-->>Databricks: Return dataset
-Databricks->>ML: Train model
-ML-->>Databricks: Return model
-Databricks-->>User: Display results
-
-</div>
+![](media/04.mmd.png)
 
 <script>
   if (typeof mermaid === 'undefined') {
@@ -219,29 +187,7 @@ classDiagram
 
 
 
-<div class="mermaid">
-classDiagram
-class DataProcessor {
-    +DataFrame data
-    +process_data()
-    +validate_schema()
-}
-
-class FeatureEngineering {
-    +create_features()
-    +scale_features()
-}
-
-class ModelTrainer {
-    +train()
-    +evaluate()
-    +save_model()
-}
-
-DataProcessor --> FeatureEngineering
-FeatureEngineering --> ModelTrainer
-
-</div>
+![](media/05.mmd.png)
 
 <script>
   if (typeof mermaid === 'undefined') {
@@ -270,13 +216,7 @@ erDiagram
 
 
 
-<div class="mermaid">
-erDiagram
-CUSTOMER ||--o{ ORDER : places
-ORDER ||--|{ LINE-ITEM : contains
-CUSTOMER }|--|{ DELIVERY-ADDRESS : uses
-
-</div>
+![](media/06.mmd.png)
 
 <script>
   if (typeof mermaid === 'undefined') {
@@ -313,21 +253,7 @@ gantt
 
 
 
-<div class="mermaid">
-gantt
-title Project Timeline
-dateFormat  YYYY-MM-DD
-section Planning
-Requirements gathering :a1, 2023-01-01, 10d
-Design phase           :a2, after a1, 15d
-section Development
-Coding                 :a3, after a2, 25d
-Testing                :a4, after a3, 10d
-section Deployment
-Deployment preparation :a5, after a4, 5d
-Go-live                :milestone, after a5, 0d
-
-</div>
+![](media/07.mmd.png)
 
 <script>
   if (typeof mermaid === 'undefined') {
@@ -359,16 +285,7 @@ stateDiagram-v2
 
 
 
-<div class="mermaid">
-stateDiagram-v2
-[*] --> Idle
-Idle --> Processing: New data
-Processing --> Completed: Successful
-Processing --> Failed: Error
-Completed --> [*]
-Failed --> Idle: Retry
-
-</div>
+![](media/08.mmd.png)
 
 <script>
   if (typeof mermaid === 'undefined') {
@@ -397,14 +314,7 @@ pie title Programming Languages
 
 
 
-<div class="mermaid">
-pie title Programming Languages
-"Python" : 40
-"SQL" : 30
-"Scala" : 20
-"R" : 10
-
-</div>
+![](media/09.mmd.png)
 
 <script>
   if (typeof mermaid === 'undefined') {
